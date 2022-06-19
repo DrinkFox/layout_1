@@ -254,6 +254,7 @@ header {
     display: flex;
     width: 1100px;
     justify-content: space-between;
+    padding-top: 150px;
 }
 
 .advantages_img {
@@ -279,4 +280,39 @@ header {
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: space-between;
+    padding-top: 40px;
+    width: 500px;
+    height: 200px;
+}
+
+.advantages_points div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 450px;
+    height: 37px;
+    margin-left: 0px;
+}
+
+.advantages_points div img {
+    margin: 0px;
+    padding-right: 27px;
+}
+
+.advantages_points div span {
+    margin-left: 0px;
+}
+
+.advantages_btn {
+    margin-top: 32px;
+    width: 210px;
+    height: 60px;
+    background: #0A2640;
+    border: 2px solid #0A2640;
+    border-radius: 56px;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
 }
