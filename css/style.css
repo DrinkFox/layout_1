@@ -392,3 +392,15 @@ header {
 .connect_btn_blue p {
     color: #fff;
 }
+
+.feedback_container {
+    background-image: url(/img/FeedBackGround.png);
+    height: 797px;
+    width: 1400px;
+    margin-top: 120px;
+}
+
+.feedback_container_inside {
+    width: 1150px;
+    height: 605px;
+}
