@@ -6,6 +6,7 @@
 body {
     margin: 0 auto;
     width: 1400px;
+    height: 10000px;
 }
 
 .container {
@@ -494,4 +495,61 @@ header {
 .feedback_avatar_info h5 {
     margin-left: 0;
     padding-bottom: 6px;
+}
+
+.AboutUs_container {
+    width: 1100px;
+    display: flex;
+    padding-top: 124px;
+    flex-direction: column;
+}
+
+.abput_us_block {
+    padding-top: 56px;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+
+.about_us_info {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 56px;
+    width: 500px;
+    margin-left: 0;
+}
+
+.about_us_points {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 140px;
+    justify-content: space-between;
+}
+
+.about_us_point {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #C4C4C4;
+    padding-bottom: 17px;
+}
+
+.about_us_point img {
+    height: 28px;
+    width: 28px;
+    margin-right: 0;
+}
+
+.about_us_point p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    margin-left: 0;
 }
