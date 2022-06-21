@@ -6,7 +6,6 @@
 body {
     margin: 0 auto;
     width: 1400px;
-    height: 10000px;
 }
 
 .container {
@@ -719,4 +718,108 @@ header {
 
 .email_btn:hover {
     cursor: pointer;
+}
+
+footer {
+    display: flex;
+    padding-top: 84px;
+}
+
+.footer_logo {
+    display: flex;
+    align-items: center;
+    width: 156px;
+    margin-left: 0;
+}
+
+.footer_logo img {
+    margin: 0;
+}
+
+.footer_logo h2 {
+    margin-left: 10px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 43.25px;
+    line-height: 34px;
+    color: #0A2640;
+}
+
+.footer_info_block {
+    margin-left: 100px;
+    width: 300px;
+    height: 257px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_links {
+    width: 642px;
+    display: flex;
+    height: 240px;
+}
+
+.footer_links_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer_links_container p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.footer_link {
+    margin-left: 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #777777;
+    text-decoration: none;
+}
+
+.footer_info {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #777777;
+}
+
+.footer_info_block p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #777777;
+    margin-left: 0;
+}
+
+.hiring {
+    width: 72px;
+    height: 30px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 28px;
+    background: #65E4A3;
+    border-radius: 120px;
+    color: #0A2640;
+    text-decoration: none;
+    padding: 8px 14px;
+    margin-left: 10px;
 }
