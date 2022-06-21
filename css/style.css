@@ -664,3 +664,59 @@ header {
 .feedback_btn:hover {
     cursor: pointer;
 }
+
+.email_container {
+    margin-top: 124px;
+    width: 1200px;
+    height: 391px;
+    background-image: url(/img/email_backfround_elips.png), url(/img/email_background.png);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.email_heading {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 712px;
+    height: 72px;
+    padding-bottom: 150px;
+}
+
+.email_feedback {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 604px;
+    justify-content: space-between;
+}
+
+.email_input {
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 240px;
+    color: #000;
+    width: 370px;
+    height: 56px;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.email_btn {
+    padding: 16px 56px;
+    background: #65E4A3;
+    border: 2px solid #65E4A3;
+    border-radius: 56px;
+    width: 210px;
+    height: 60px;
+}
+
+.email_btn:hover {
+    cursor: pointer;
+}
