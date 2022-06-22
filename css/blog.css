@@ -23,6 +23,7 @@ body {
     margin: 0 auto;
     padding-bottom: 72px;
     border-bottom: 2px solid #000;
+    margin-bottom: 96px;
 }
 
 header {
@@ -81,4 +82,208 @@ header {
     line-height: 24px;
     display: flex;
     align-items: center;
+}
+
+.blog_heading {
+    padding-top: 72px;
+    height: 183px;
+    width: 888px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.blog_heading span {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #0A2640;
+}
+
+.blog_heading_name {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 84px;
+    color: #0A2640;
+    text-align: center;
+}
+
+.blog_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.blog_heading_body {
+    padding-top: 40px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blog_heading_img {
+    margin-left: 0;
+}
+
+.blog_heading_main_post {
+    width: 550px;
+    height: 247px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+}
+
+.blog_heading_date {
+    display: flex;
+    margin-left: 0;
+}
+
+.blog_heading_date p {
+    margin-left: 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #0A2640;
+}
+
+.blog_heading_date span {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #777777;
+    padding-left: 12px;
+}
+
+.blog_heading_main_post h3 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    color: #000000;
+}
+
+.blog_heading_avatar {
+    display: flex;
+    margin-left: 0;
+    align-items: center;
+}
+
+.blog_heading_avatar p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+    margin-left: 12px;
+}
+
+.blog_card_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 1000px;
+    height: 1180px;
+    justify-content: space-between;
+}
+
+.blog_card_heading {
+    margin-left: 0;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    color: #000000;
+    margin-left: 20px;
+}
+
+.blog_cards_space {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    margin-bottom: 80px;
+}
+
+.card_category p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #0A2640;
+    margin-left: 0;
+    margin-right: 12px;
+}
+
+.card_category span {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #777777;
+    margin-left: 0;
+}
+
+.card_category {
+    padding-bottom: 12px;
+    padding-top: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.card h5 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #000000;
+    padding-bottom: 20px;
+}
+
+.blog_card_avatar {
+    display: flex;
+    align-items: center;
+}
+
+.blog_card_avatar img {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.blog_card_avatar p {
+    margin-left: 12px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.blog_card_btn {
+    border: 2px solid #0A2640;
+    border-radius: 56px;
+    padding: 16px 56px;
+    background-color: #fff;
 }
